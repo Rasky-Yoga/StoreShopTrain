@@ -1,0 +1,32 @@
+body {
+	margin:0;
+	padding:0;
+	background-image:url(logoM.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-family:sans-serif;
+}
+.h3 {
+	font-color:white;
+	
+}
+.nav-link:hover {
+	background-color:grey;
+}
+.display-4 {
+	font-size:20px;
+	font-weight:bold;
+	
+}
+.card-body-icon {
+	position:absolute;
+	z-index:0;
+	top:45px;
+	right:4px;
+	opacity:0.6;
+	font-size:90px;
+	color:white;
+	
+}

@@ -1,0 +1,101 @@
+body {
+	margin:0;
+	padding:0;
+	background-image:url(logoM.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-family:sans-serif;
+	
+}
+.logIn {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:rgba(0, 0, 0, 0.5);
+	padding:20px;
+	width:250px;
+	box-shadow:0 0 10px 5px orange;
+}
+.avatar {
+	font-size:50px;
+	background:#ff7f00;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	position:fixed;
+	left:50%;
+	top:0;
+	transform:translate(-50%, -50%);
+	border-radius:50%;
+	color:#2c3e50;
+	#ff7f00
+	#bdc3c7
+}
+
+.logIn h2{ 
+	text-align: center;
+	color: orange;
+	padding-top: 5px;
+	letter-spacing: 5px;
+	font-family: arial;
+
+}
+
+.box-login {
+	display: flex;
+	justify-content:space-bethween;
+	margin-bottom:15px;
+	border-bottom:2px solid orange;
+	padding:8px 0;
+}
+.box-login i {
+	font-size:18px;
+	color:orange;
+}
+.box-login input {
+	width: 100%
+	padding:0 10px;
+	background: none;
+	border:none;
+	outline:none;
+	color:white;
+	font-size: 18px;
+}
+.box-login input :placeholder {
+	color:white;
+}
+.btn-logIn {
+	width:100%;
+	background:none;
+	padding:15px;
+	border:1px solid white;
+	font-size:18px;
+	letter-spacing:5px;
+	color:orange;
+	cursor:pointer;
+	transition:0.3s;
+}
+.btn-logIn:hover {
+	background:rgba(0,0,0,0.8);
+}
+
+.bottom {
+	display:flex;
+	justify-content:space-bethween;
+	margin-top:10px;
+}
+
+.bottom a {
+	color:white;
+	font-size:14px;
+	text-decoration:none;
+}
+
+
+
+
+
