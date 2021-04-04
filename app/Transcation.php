@@ -10,7 +10,7 @@ class Transcation extends Model
     protected $guarded = [];
 
     protected $primaryKey = 'invoices_number';
-    public $incrementing = false;
+    public $incrementing = true;
     protected $keyType = 'string';
 
      public function productTranscation(){

@@ -15,6 +15,6 @@ return [
     |
     */
 
-    'driver' => 'gb'
+    'driver' => 'gd'
 
 ];
